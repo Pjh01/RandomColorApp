@@ -9,9 +9,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var colorLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        view.backgroundColor = .white
+        colorLabel.text = "R: 255, G: 255, B: 255"
     }
 
 
